@@ -1,6 +1,6 @@
 {
   "name": "frap-wordpress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Plugin de WordPress que conecta el sitio con FRAP mediante tokens temporales con permisos por recurso.",
   "scripts": {

@@ -1,6 +1,6 @@
 # FRAP WordPress
 
-**Versión:** 1.0.0
+**Versión:** 1.0.1
 
 Plugin de WordPress que conecta el sitio con [FRAP](https://github.com/franciscoblancojn/frap) y sus IA (claude, codex, opencode) mediante **tokens temporales con permisos por recurso**.
 

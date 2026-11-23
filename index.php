@@ -3,7 +3,7 @@
 Plugin Name: FRAP WordPress
 Plugin URI: https://github.com/franciscoblancojn/frap-wordpress
 Description: Conecta el sitio con FRAP (y sus IA) mediante tokens temporales. Cada token tiene vencimiento (24 horas por defecto) y permisos por recurso (páginas, entradas, productos, medios…): por defecto solo lectura.
-Version: 1.0.0
+Version: 1.0.1
 Author: franciscoblancojn
 Author URI: https://franciscoblanco.vercel.app/
 License: GPL2+

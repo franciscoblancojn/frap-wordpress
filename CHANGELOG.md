@@ -1,6 +1,6 @@
 # Changelog
 
-## [Sin publicar]
+## [1.0.1] - 2026-11-22
 
 ### Añadido
 - Tokens de integración con vencimiento (24 horas por defecto, de 1 hora a 30 días), renovar sin cambiar el valor, revocar y eliminar. Solo se guarda el hash.
