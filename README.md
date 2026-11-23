@@ -37,4 +37,4 @@ El código vive dentro del repo de FRAP (`integrations/wordpress/frap-wordpress`
 - `npm run check`: validaciones (php -l, JS ES5, require_once, secretos, rutas REST con permiso).
 - `npm run push-v -- patch|minor|major`: sube la versión, hace commit en FRAP y publica en el repo del plugin con el tag (el workflow crea la release).
 - `npm run publish`: solo empuja la rama al repo del plugin (`FRAPWP_REMOTE` cambia el destino).
-- Actualizaciones automáticas (`FWUUpdate`): definir `FRAPWP_GITHUB_TOKEN` en `wp-config.php` con un token de lectura del repo.
+- Actualizaciones automáticas (`FWUUpdate`): el token de GitHub va en `index.php` (`token_array_split`), de solo lectura a repos públicos, como en los demás plugins del autor.

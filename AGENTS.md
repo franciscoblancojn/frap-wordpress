@@ -12,7 +12,7 @@
 - Todo recurso nuevo pasa por `FRAPWP_RESOURCES`: lista blanca de rutas internas y acciones. Por defecto solo lectura; lo que tiene datos personales empieza apagado.
 - Las peticiones internas se hacen con `rest_do_request` como el usuario que creó el token (administrador): WordPress valida y sanea como siempre.
 - Formularios del admin: `check_admin_referer(FRAPWP_API_TOKENS::NONCE)` + `current_user_can('manage_options')`.
-- El token de GitHub de `FWUUpdate` no va en el código: `FRAPWP_GITHUB_TOKEN` en `wp-config.php`.
+- El token de GitHub de `FWUUpdate` está en `index.php` (`token_array_split`, solo lectura a repos públicos), como en los demás plugins del autor. No agregar otras claves o secretos al código: `npm run check` falla si encuentra un token escrito de corrido.
 
 ## Arquitectura
 - `index.php`: cabecera y constantes `FRAPWP_*`. Sin lógica.
