@@ -1,0 +1,109 @@
+.frapwp-page .frapwp-version {
+    font-size: 12px;
+    font-weight: 400;
+    color: #646970;
+}
+
+.frapwp-lead {
+    max-width: 760px;
+}
+
+.frapwp-new {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-left: 4px solid #00a32a;
+    padding: 4px 16px 8px;
+    margin: 12px 0;
+    max-width: 760px;
+}
+
+.frapwp-muted {
+    color: #646970;
+}
+
+.frapwp-badge {
+    display: inline-block;
+    padding: 0 8px;
+    border-radius: 10px;
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.frapwp-activo {
+    background: #d1f0d6;
+    color: #00611a;
+}
+
+.frapwp-vencido {
+    background: #fcf0d4;
+    color: #8a5a00;
+}
+
+.frapwp-revocado {
+    background: #fbdada;
+    color: #8a1f1f;
+}
+
+.frapwp-meta {
+    margin: 4px 0;
+    color: #3c434a;
+}
+
+.frapwp-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin: 10px 0 14px;
+}
+
+.frapwp-actions form {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    margin: 0;
+}
+
+.frapwp-perms {
+    max-width: 760px;
+}
+
+.frapwp-perms .frapwp-c {
+    text-align: center;
+    width: 70px;
+}
+
+.frapwp-perms code {
+    font-size: 11px;
+    color: #646970;
+}
+
+.frapwp-na {
+    color: #c3c4c7;
+}
+
+.frapwp-tag {
+    display: inline-block;
+    margin-left: 4px;
+    padding: 0 6px;
+    border-radius: 8px;
+    background: #f0f0f1;
+    color: #8a5a00;
+    font-size: 10.5px;
+}
+
+.frapwp-log code {
+    font-size: 11px;
+    word-break: break-all;
+}
+
+.frapwp-log tr.frapwp-err td {
+    color: #8a1f1f;
+}
+
+.frapwp-steps li {
+    margin-bottom: 6px;
+}
